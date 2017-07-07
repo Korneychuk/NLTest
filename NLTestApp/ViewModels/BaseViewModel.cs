@@ -4,9 +4,8 @@ using System.ComponentModel;
 using System.Linq;
 using System.Linq.Expressions;
 using System.Reflection;
-using NLTestApp.RelayCommand;
 
-namespace Infrastructure.Common.Windows.ViewModels
+namespace NLTestApp.ViewModels
 {
 	public abstract class BaseViewModel : INotifyPropertyChanged
 	{
@@ -38,3 +37,4 @@ namespace Infrastructure.Common.Windows.ViewModels
 		}
 	}
 }
+

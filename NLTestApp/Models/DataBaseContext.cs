@@ -8,6 +8,6 @@ namespace NLTestApp.Models
 		{
 		}
 
-		public DbSet<MartianModel> Martians { get; set; }
+		public DbSet<Martian> Martians { get; set; }
 	}
 }

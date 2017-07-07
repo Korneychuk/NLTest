@@ -2,7 +2,7 @@
 using System.Diagnostics;
 using System.Windows.Input;
 
-namespace IVEPRCalculator.Helpers
+namespace NLTestApp
 {
 	public delegate bool PredicateDelegate();
 
@@ -52,13 +52,7 @@ namespace IVEPRCalculator.Helpers
 		[DebuggerStepThrough]
 		public void ForceExecute()
 		{
-			try
-			{
-				_execute();
-			}
-			catch (Exception e)
-			{
-			}
+			_execute();
 		}
 
 		#region ICommand Members
@@ -78,7 +72,7 @@ namespace IVEPRCalculator.Helpers
 				{
 					return _canExecute(parameter);
 				}
-				catch (Exception e)
+				catch (Exception)
 				{
 					return false;
 				}
@@ -133,13 +127,7 @@ namespace IVEPRCalculator.Helpers
 		[DebuggerStepThrough]
 		public void ForceExecute(T parameter)
 		{
-			try
-			{
-				_execute(parameter);
-			}
-			catch (Exception e)
-			{
-			}
+			_execute(parameter);
 		}
 
 		#region ICommand Members

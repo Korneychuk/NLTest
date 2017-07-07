@@ -1,0 +1,16 @@
+﻿<UserControl x:Class="NLTestApp.Views.MainView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:viewModels="clr-namespace:NLTestApp.ViewModels"
+             xmlns:local="clr-namespace:NLTestApp.Views">
+	<UserControl.DataContext>
+		<viewModels:MainViewModel />
+	</UserControl.DataContext>
+	<Grid>
+		<StackPanel>
+			<Button Command="{Binding ImportDataCommand}" Content="Загрузить TSV файл" />
+			<Button Command="{Binding ExportDataCommand}" Content="Экспорт данных" />
+			<Button Command="{Binding ExportDataCommand}" Content="Экспорт данных" />
+		</StackPanel>
+	</Grid>
+</UserControl>
