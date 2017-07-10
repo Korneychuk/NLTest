@@ -18,3 +18,25 @@ c:\users\korneychuk\documents\visual studio 2017\Projects\NLTestApp\NLTestApp\ob
 c:\users\korneychuk\documents\visual studio 2017\Projects\NLTestApp\NLTestApp\obj\Debug\DataTemplates\Dictionary.baml
 c:\users\korneychuk\documents\visual studio 2017\Projects\NLTestApp\NLTestApp\obj\Debug\Views\MainView.baml
 c:\users\korneychuk\documents\visual studio 2017\Projects\NLTestApp\NLTestApp\obj\Debug\NLTestApp.csprojResolveAssemblyReference.cache
+C:\Users\Dsacr\Documents\GitHub\NLTest\NLTestApp\bin\Debug\NLTestApp.exe.config
+C:\Users\Dsacr\Documents\GitHub\NLTest\NLTestApp\bin\Debug\NLTestApp.exe
+C:\Users\Dsacr\Documents\GitHub\NLTest\NLTestApp\bin\Debug\NLTestApp.pdb
+C:\Users\Dsacr\Documents\GitHub\NLTest\NLTestApp\bin\Debug\EntityFramework.dll
+C:\Users\Dsacr\Documents\GitHub\NLTest\NLTestApp\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Dsacr\Documents\GitHub\NLTest\NLTestApp\bin\Debug\EntityFramework.xml
+C:\Users\Dsacr\Documents\GitHub\NLTest\NLTestApp\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Dsacr\Documents\GitHub\NLTest\NLTestApp\obj\Debug\Views\MainView.g.cs
+C:\Users\Dsacr\Documents\GitHub\NLTest\NLTestApp\obj\Debug\Views\SettingsView.g.cs
+C:\Users\Dsacr\Documents\GitHub\NLTest\NLTestApp\obj\Debug\App.g.cs
+C:\Users\Dsacr\Documents\GitHub\NLTest\NLTestApp\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Dsacr\Documents\GitHub\NLTest\NLTestApp\obj\Debug\NLTestApp_MarkupCompile.cache
+C:\Users\Dsacr\Documents\GitHub\NLTest\NLTestApp\obj\Debug\NLTestApp_MarkupCompile.lref
+C:\Users\Dsacr\Documents\GitHub\NLTest\NLTestApp\obj\Debug\Views\MainView.baml
+C:\Users\Dsacr\Documents\GitHub\NLTest\NLTestApp\obj\Debug\Views\SettingsView.baml
+C:\Users\Dsacr\Documents\GitHub\NLTest\NLTestApp\obj\Debug\NLTestApp.g.resources
+C:\Users\Dsacr\Documents\GitHub\NLTest\NLTestApp\obj\Debug\NLTestApp.Properties.Resources.resources
+C:\Users\Dsacr\Documents\GitHub\NLTest\NLTestApp\obj\Debug\NLTestApp.csproj.GenerateResource.Cache
+C:\Users\Dsacr\Documents\GitHub\NLTest\NLTestApp\obj\Debug\NLTestApp.exe
+C:\Users\Dsacr\Documents\GitHub\NLTest\NLTestApp\obj\Debug\NLTestApp.pdb
+C:\Users\Dsacr\Documents\GitHub\NLTest\NLTestApp\obj\Debug\App.baml
+C:\Users\Dsacr\Documents\GitHub\NLTest\NLTestApp\obj\Debug\NLTestApp.csprojResolveAssemblyReference.cache

@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-c:\users\korneychuk\documents\visual studio 2017\Projects\NLTestApp\NLTestApp\obj\Debug\
+C:\Users\Dsacr\Documents\GitHub\NLTest\NLTestApp\obj\Debug\
 NLTestApp
 none
 false
 DEBUG;TRACE
-c:\users\korneychuk\documents\visual studio 2017\Projects\NLTestApp\NLTestApp\App.xaml
-22082085870
+C:\Users\Dsacr\Documents\GitHub\NLTest\NLTestApp\App.xaml
+2-945865798
 
-12-1182297657
-18-1752431586
-DataTemplates\Dictionary.xaml;Views\MainView.xaml;
+15-293722401
+18673153674
+Views\MainView.xaml;Views\SettingsView.xaml;
 
 False
 

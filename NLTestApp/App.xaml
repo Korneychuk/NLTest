@@ -1,9 +1,12 @@
 ﻿<Application x:Class="NLTestApp.App"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-             xmlns:local="clr-namespace:NLTestApp"
-             StartupUri="Views/MainView.xaml">
+             StartupUri="Views/MainView.xaml"
+             xmlns:ViewModels="clr-namespace:NLTestApp.ViewModels"
+             xmlns:Views="clr-namespace:NLTestApp.Views">
     <Application.Resources>
-         
+        <DataTemplate DataType="{x:Type ViewModels:SettingsViewModel}">
+            <Views:SettingsView />
+        </DataTemplate>
     </Application.Resources>
 </Application>

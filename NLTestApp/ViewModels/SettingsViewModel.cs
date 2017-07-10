@@ -1,40 +1,39 @@
-﻿using System.IO;
+﻿using NLTestApp.Models;
+using System.IO;
 using System.Windows;
 using System.Xml.Serialization;
-using NLTestApp.Models;
 
 namespace NLTestApp.ViewModels
 {
-	class SettingsViewModel : BaseViewModel
+	class SettingsViewModel : DialogViewModel
 	{
-		public SettingsViewModel(Settings settings)
+		public SettingsViewModel()
 		{
-			ConnectionString = settings.ConnectionString;
-			SetConnectionStingCommand = new RelayCommand(OnSetConnectionSting);
+			Settings = Bootstrapper.Settings;
+			ApplySettingsCommand = new RelayCommand(OnApplySettings);
+			CancelSettingsCommand = new RelayCommand(OnCancelSettings);
 		}
 
-		public RelayCommand SetConnectionStingCommand { get; set; }
-		void OnSetConnectionSting()
+		public Settings Settings { get; set; }
+
+		public RelayCommand ApplySettingsCommand { get; set; }
+		void OnApplySettings()
 		{
-			var settings = new Settings { ConnectionString = ConnectionString };
 			var xml = new XmlSerializer(typeof(Settings));
 			using (var writer = new StreamWriter("app_settings.xml"))
-				xml.Serialize(writer, settings);
+				xml.Serialize(writer, Settings);
+			CloseDialog(this);
 			if (MessageBox.Show("Перезапустить приложение для вступлений изменений в силу?") == MessageBoxResult.OK)
 			{
 				System.Windows.Forms.Application.Restart();
 				Application.Current.Shutdown();
-			}
+			};
 		}
 
-		string _connectionString;public string ConnectionString
+		public RelayCommand CancelSettingsCommand { get; set; }
+		void OnCancelSettings()
 		{
-			get => _connectionString;
-			set
-			{
-				_connectionString = value;
-				OnPropertyChanged(() => ConnectionString);
-			}
+			CloseDialog(this);
 		}
 	}
 }

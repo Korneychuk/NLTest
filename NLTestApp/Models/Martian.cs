@@ -9,9 +9,9 @@
 		public Martian(string[] properties)
 		{
 			FullName = properties[0];
-			BirthDate = properties[1];
-			Email = properties[2];
-			Phone = properties[3];
+			BirthDate = properties[1].Replace("-", "/").Replace(".", "/").Replace("\\", "/").Replace("|", "/");
+			Email = properties[2].ToLower();
+			Phone = properties[3].Replace("-", "").Replace("(","").Replace(")", "").Replace("+", "").Replace(" ","");
 		}
 
 		public int Id { get; set; }
